@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8" />
+  <title>HANGMAN-WEB</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../images/icone pendu.png">
+</head>
+
+<body class="win">
+  <img class="ynov" src="../images/logo_ynov_informatique_ingesup_var.svg" height=60px>
+  <h1>You Win !</h1>
+  <h2>Well done you found the word {{.Word}}</h2>
+  <h2>Your score is {{.Score}}</h2>
+  <img id="applause" src="../images/applause.gif">
+  <h2>Do you want to do this again ?</h2>
+  <form method="GET" action="/">
+      <br>
+      <input class="button" type="submit" value="REPLAY" />
+  </form>
+  <form method="POST" action="/rank">
+      <br>
+      <input class="button" type="submit" value="RANK" />
+  </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8" />
+  <title>HANGMAN-WEB</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../images/icone pendu.png">
+</head>
+
+<body>
+  <img class="ynov"src="../images/logo_ynov_informatique_ingesup_var.svg" height=60px>
+  <h1>Choose your save name :</h1>
+  <form autocomplete="off" method="POST" action="/save">
+    <input class="input" name="input" type="text" placeholder="Choose a name save"
+      onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode == 13)"/>
+    <br><br>
+    <input class="button" name="submit" type="submit" value="SAVE" />
+  </form>
+</body>
+</html>

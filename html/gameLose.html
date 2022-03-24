@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8" />
+  <title>HANGMAN-WEB</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../images/icone pendu.png">
+</head>
+
+<body class="lose">
+  <img class="ynov" src="../images/logo_ynov_informatique_ingesup_var.svg" height=60px>
+  <h1>You lose !</h1>
+  <h2>Dommage que le mot était {{.Word}}</h2>
+  <img id="loser" src="../images/loser.gif">
+  <h2>Do you want to try again ?</h2>
+  <form method="GET" action="/">
+      <br>
+      <input class="button" type="submit" value="REPLAY" />
+  </form>
+  <form method="POST" action="/rank">
+      <br>
+      <input class="button" type="submit" value="RANK" />
+  </form>
+
+</body>
+
+</html>

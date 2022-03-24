@@ -1,0 +1,1 @@
+{"Pendu":"../images/Pendu/pendu_9.png","Word":"DOSSIER","ToFind":"_O___E_","Life":9,"Stockage":["E"],"Input":"","Username":"LEO","Text":"Wrong letter","Difficulty":0.33,"Score":0,"Sl":0,"Nmax":100,"Nl":10}
