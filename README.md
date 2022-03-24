@@ -13,7 +13,7 @@ Hangman-web est une application web permettant de jouer au pendu depuis un navig
 
 L'installation est simple, il suffit de cloner le répertoire git en faisant la commande :
 ```bash
-git clone https://git.ytrack.learn.ynov.com/LGRAND-MORCEL/hangman-web.git
+git clone https://github.com/pvayssier/hangman-web.git
 ```
 Et d'ensuite aller dans le fichier `HANGMAN-WEB`, créer un dossier `SAVE` et faire :
 ```bash
