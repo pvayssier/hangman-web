@@ -15,7 +15,7 @@ L'installation est simple, il suffit de cloner le répertoire git en faisant la 
 ```bash
 git clone https://git.ytrack.learn.ynov.com/LGRAND-MORCEL/hangman-web.git
 ```
-Et d'ensuite aller dans le fichier `HANGMAN-WEB` et faire :
+Et d'ensuite aller dans le fichier `HANGMAN-WEB`, créer un dossier `SAVE` et faire :
 ```bash
 go run web/main.go
 ```
